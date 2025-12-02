@@ -11,5 +11,5 @@ server.use(express.json())
 server.use(router)
 
 server.listen(port, () => {
-    console.log(`Servidor ligado na porta: https://localhost:${port}`)
+    console.log(`Servidor ligado na porta: http://localhost:${port}`)
 })
